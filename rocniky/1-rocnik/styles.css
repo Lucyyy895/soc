@@ -1,10 +1,12 @@
 
 html {
     background-color: #e7e6e1;
- }
+    height: 100%;
+}
  body {
      margin: 0;
- }
+     height: 100%;
+}
 h1 {
     display: flex;
     justify-content: center;
@@ -62,16 +64,14 @@ strong {
     width: 100%;
     height: 154px;
     margin-top: 50px;
+
 }
-.citat-obrazok {
+.antigona .citat-obrazok {
     top: 10%; 
     right: 20px; 
-    width: 500px; 
     text-align: center;
     position: absolute;
     height: auto;
-    max-width: 500px;
-    min-width: 50px;
 }
 .antigona img {
     width: 320px;
@@ -81,4 +81,253 @@ strong {
     display: flex;
     flex-direction: column;
     position: relative;
+}
+.pata h4 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 40px;
+}
+.pata p {
+    font-size: 16px;
+    text-align: center;
+}
+.hamlet .citat-obrazok {
+    top: 150%; 
+    right: 20px; 
+    text-align: center;
+    position: absolute;
+    height: auto;
+}
+.skola .citat-obrazok {
+    top: 225%; 
+    right: 20px; 
+    text-align: center;
+    position: absolute;
+    height: auto;
+}
+.lakomec .citat-obrazok {
+    top: 290%; 
+    right: 20px; 
+    text-align: center;
+    position: absolute;
+    height: auto;
+}
+.citat-obrazok {
+    width: 320px;
+    max-width: 400px;
+}
+.lakomec img {
+    width: 200px;
+    height: 300px;
+}
+@media only screen and (max-width: 1050px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .zoznam p {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    strong {
+        font-size: 15px;
+    }
+    .diela p {
+        font-size: 12px;
+    }
+    .antigona img {
+        width: 190px;
+        height: 230px;
+    }
+    .hamlet .citat-obrazok {
+        top: 100%;
+    }
+    .hamlet img {
+        width: 190px;
+        height: 230px;
+    }
+    .skola img {
+        width: 190px;
+        height: 230px;
+    }
+    .skola .citat-obrazok {
+        top: 180%;
+    }
+    .lakomec img {
+        width: 185px;
+        height: 240px;
+    }
+    .lakomec .citat-obrazok {
+        top: 230%;
+    }
+    .pata p {
+        font-size: 11px;
+    }
+    .pata {
+        height: 145px;
+    }
+    .pata h4 {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .diela p {
+        max-width: 45%;
+    }
+    .diela h4 {
+        max-width: 55%;
+    }
+  }
+  @media only screen and (max-width: 710px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    .zoznam p {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    strong {
+        font-size: 10px;
+    }
+    .diela p {
+        font-size: 8px;
+        max-width: 40%;
+    }
+    .diela h4 {
+        max-width: 50%;
+    }
+    .antigona img {
+        width: 120px;
+        height: 200px;
+    }
+    blockquote {
+        font-size: 10px;
+    }
+    .hamlet .citat-obrazok {
+        top: 85%;
+    }
+    .hamlet img {
+        width: 120px;
+        height: 200px;
+    }
+    .skola img {
+        width: 120px;
+        height: 200px;
+    }
+    .skola .citat-obrazok {
+        top: 130%;
+    }
+    .lakomec img {
+        width: 120px;
+        height: 195px;
+    }
+    .lakomec .citat-obrazok {
+        top: 170%;
+    }
+    .pata p {
+        font-size: 11px;
+    }
+    .pata {
+        height: 145px;
+    }
+    .pata h4 {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .citat-obrazok {
+        width: 200px;
+        max-width: 400px;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .diela h4{
+        width: 30%;
+    }
+    blockquote {
+        font-size: 7px;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 8px;
+    }
+    .zoznam p {
+        font-size: 8px;
+    }
+    h4 {
+        font-size: 10px;
+    }
+    strong {
+        font-size: 8px;
+    }
+    .diela p {
+        font-size: 6px;
+        max-width: 40%;
+    }
+    .diela h4 {
+        max-width: 50%;
+    }
+    .antigona img {
+        width: 70px;
+        height: 100px;
+    }
+    blockquote {
+        font-size: 6px;
+    }
+    .hamlet .citat-obrazok {
+        top: 85%;
+    }
+    .hamlet img {
+        width: 70px;
+        height: 100px;
+    }
+    .skola img {
+        width: 70px;
+        height: 100px;
+    }
+    .skola .citat-obrazok {
+        top: 130%;
+    }
+    .lakomec img {
+        width: 70px;
+        height: 110px;
+    }
+    .lakomec .citat-obrazok {
+        top: 170%;
+    }
+    .pata p {
+        font-size: 8px;
+    }
+    .pata {
+        height: 130px;
+    }
+    .pata h4 {
+        font-size: 10px;
+    }
+    .citat-obrazok {
+        width: 150px;
+        max-width: 400px;
+    }
 }
