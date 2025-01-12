@@ -66,13 +66,15 @@ a {
     background-color: #c0b4ac;
     width: 100%;
     height: 154px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
 }
 .prvy {
     position: absolute; 
-    width: 8.5vw;
-    height: 8.5vw;
-    min-width: 85px;
-    min-height: 85px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%; 
     background-image: url(./obrazky/kruh-prvy.jpg);
     background-size: cover; 
@@ -83,10 +85,8 @@ a {
 }
 .druhy {
     position: absolute; 
-    width: 7vw;
-    height: 7vw;
-    min-width: 75px;
-    min-height: 75px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%; 
     background-image: url(./obrazky/kruh-druhy.jpg);
     background-size: cover; 
@@ -97,24 +97,20 @@ a {
 }
 .treti {
     position: absolute; 
-    width: 10.5vw;
-    height: 10.5vw;
-    min-width: 75px;
-    min-height: 75px;
+    width: 155px;
+    height: 155px;
     border-radius: 50%; 
     background-image: url(./obrazky/kruh-treti.jpg);
     background-size: cover; 
     background-position: center; 
     right: 5%; 
-    top: 20%; 
+    top: 22%; 
     margin: 10px; 
 }
 .stvrty {
     position: absolute; 
-    width: 9.5vw;
-    height: 9.5vw;
-    min-width: 75px;
-    min-height: 75px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%; 
     background-image: url(./obrazky/kruh-stvrty.jpg);
     background-size: cover; 
@@ -125,15 +121,212 @@ a {
 }
 .piaty {
     position: absolute; 
-    width: 8vw;
-    height: 8vw;
-    min-width: 75px;
-    min-height: 75px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%; 
     background-image: url(./obrazky/kruh-piaty.jpg);
     background-size: cover; 
     background-position: center; 
-    right: 14.5%; 
+    right: 13.5%; 
     top: 55%; 
     margin: 10px; 
 }
+.pata h4 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pata p {
+    font-size: 16px;
+    text-align: center;
+}
+@media only screen and (max-width: 860px) {
+    .prvy {
+        width: 120px;
+        height: 120px;
+    }
+    .druhy {
+        width: 95px;
+        height: 95px;
+    }
+    .treti {
+        width: 145px;
+        height: 145px;
+    }
+    .stvrty {
+        width: 130px;
+        height: 130px;
+    }
+    .piaty {
+        width: 120px;
+        height: 120px;
+    }
+    .tlacidlo {
+        font-size: 22px;
+    }
+    .nadpis {
+        font-size: 26px;
+    }
+    .pata {
+        height: 145px;
+    }
+    .pata h4 {
+        font-size: 16px;
+    }
+    .pata p {
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 740px) {
+    .prvy {
+        width: 115px;
+        height: 115px;
+    }
+    .druhy {
+        width: 90px;
+        height: 90px;
+    }
+    .treti {
+        width: 140px;
+        height: 140px;
+    }
+    .stvrty {
+        width: 125px;
+        height: 125px;
+    }
+    .piaty {
+        width: 115px;
+        height: 115px;
+    }
+    .tlacidlo {
+        font-size: 20px;
+    }
+    .nadpis {
+        font-size: 24px;
+    }
+    .pata {
+        height: 140px;
+    }
+    .pata h4 {
+        font-size: 14px;
+    }
+    .pata p {
+        font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .prvy {
+        width: 105px;
+        height: 105px;
+    }
+    .druhy {
+        width: 80px;
+        height: 80px;
+    }
+    .treti {
+        width: 130px;
+        height: 130px;
+    }
+    .stvrty {
+        width: 115px;
+        height: 115px;
+    }
+    .piaty {
+        width: 105px;
+        height: 105px;
+    }
+    .tlacidlo {
+        font-size: 10px;
+    }
+    .nadpis {
+        font-size: 14px;
+    }
+    .pata {
+        height: 130px;
+    }
+    .pata h4 {
+        font-size: 12px;
+    }
+    .pata p {
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .prvy {
+        width: 90px;
+        height: 90px;
+    }
+    .druhy {
+        width: 65px;
+        height: 65px;
+    }
+    .treti {
+        width: 115px;
+        height: 115px;
+    }
+    .stvrty {
+        width: 100px;
+        height: 100px;
+    }
+    .piaty {
+        width: 90px;
+        height: 90px;
+    }
+    .tlacidlo {
+        font-size: 10px;
+    }
+    .nadpis {
+        font-size: 14px;
+    }
+    .pata {
+        height: 130px;
+    }
+    .pata h4 {
+        font-size: 12px;
+    }
+    .pata p {
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .prvy {
+        width: 70px;
+        height: 70px;
+    }
+    .druhy {
+        width: 45px;
+        height: 45px;
+    }
+    .treti {
+        width: 95px;
+        height: 95px;
+    }
+    .stvrty {
+        width: 80px;
+        height: 80px;
+    }
+    .piaty {
+        width: 70px;
+        height: 70px;
+    }
+    .tlacidlo {
+        font-size: 8px;
+    }
+    .nadpis {
+        font-size: 12px;
+    }
+    .pata {
+        height: 120px;
+    }
+    .pata h4 {
+        font-size: 10px;
+    }
+    .pata p {
+        font-size: 8px;
+    }
+    .rocniky a {
+        padding: 5px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+  }
