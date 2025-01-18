@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=DM+Serif+Text:ital@0;1&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 html {
     background-color: #e7e6e1;
     height: 100%;
@@ -10,14 +10,16 @@ html {
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-family: "Inknut Antiqua", serif;
 }
 h2 {
     display: flex;
     justify-content: center;
     font-size: 30px;
     margin-top: 0px;  
+    font-family: "Lemon", serif;
 }
 hr {
     display: flex;
@@ -35,6 +37,7 @@ h3 {
     justify-content: center;
     font-size: 25px;
     margin-bottom: 10px;
+    font-family: "Inria Serif", serif;
 }
 .zoznam p {
     display: flex;
@@ -45,7 +48,8 @@ h3 {
 }
 h4 {
     font-size: 30px;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    font-family: "Inter", serif;
 }
 .diela {
     margin-left: 3%;
@@ -119,6 +123,9 @@ strong {
 .lakomec img {
     width: 200px;
     height: 300px;
+}
+blockquote {
+    font-style: italic;
 }
 @media only screen and (max-width: 1050px) {
     h1 {
