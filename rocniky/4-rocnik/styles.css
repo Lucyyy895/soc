@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=DM+Serif+Text:ital@0;1&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+html {
+    background-color: #e7e6e1;
+ }
+ body {
+     margin: 0;
+ }
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-family: "Inknut Antiqua", serif;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 0px;  
+    font-family: "Lemon", serif;
+}
+hr {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 80%;
+    border: solid 0.5px rgb(121, 111, 111);
+}
+.hr-2 {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: "Inria Serif", serif;
+}
+h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Inter", serif;
+}
+.zoznam p {
+    display: flex;
+    justify-content: center; 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.upozornenie {
+    text-align: center;
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    border: solid 3px #da2828;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.upozornenie p {
+    margin: 15px;
+    font-size: 18px;
+}
+.pata {
+    background-color: #c0b4ac;
+    width: 100%;
+    height: 154px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.pata h4 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.pata p {
+    font-size: 16px;
+    text-align: center;
+}
+@media only screen and (max-width: 550px) {
+    h1, h2 {
+        font-size: 25px;
+    }
+    .upozornenie p {
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .zoznam p {
+        font-size: 10px;
+    }
+    .pata {
+        height: 100px;
+    }
+    .pata h4 {
+        font-size: 10px;
+    }
+    .pata p {
+        font-size: 8px;
+    }
+  }
